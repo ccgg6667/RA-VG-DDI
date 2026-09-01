@@ -1,6 +1,7 @@
-# HDN-DDI: drug-drug interactions prediction with hierarchical molecular graphs and enhanced dual-view representation learning
+# RA-VG-DDI:Relation-aware virtual node and dynamic substructure gating network for drug-drug interaction prediction
 
-**Authors**: Jinchen Sun, Haoran Zheng*
+**Authors**: Mingyu Cong, Luming Jiang, Hongjiang MA, Dongjiang Niu, Ruoxuan Ma
+and Zhen Li 
 
 **Article Link**: None (the url will be given after the paper is accepted.)
 
@@ -9,14 +10,14 @@ Note that: The relevant figures will be published in this repository after the p
 # Requirement
 To run the code, you need the following dependencies:
 ```
-PyTorch >= 1.9.0
+PyTorch >= 3.10.0
 PyTorch Geometry == 2.0.3`
 rdkit == 2020.09.2
 ```
 
 # Reimplement
 
-The average performace of HDN-DDI can be directly calculated by `evaluate.ipynb`.  
+The average performace of RA-VG-DDI can be directly calculated by `evaluate.ipynb`.  
 
 If you have configured the environment and want to verify it yourself:  
 
